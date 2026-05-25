@@ -140,19 +140,19 @@ pytest -v
 
 ## API Contract (locked)
 
-| Method | Path | Owner |
+| Method | Path
 |---|---|---|
-| POST | `/auth/signup` | Shared |
-| POST | `/auth/login` | Shared |
-| GET | `/users/me` | Shared |
-| POST | `/reports/upload` | Anshul |
-| GET | `/reports/{id}` | Anshul |
-| GET | `/reports/{id}/factors` | Anshul |
-| GET | `/reports/{id}/risk` | Anshul |
-| POST | `/chat/sessions` | Ishaan |
-| GET | `/chat/sessions` | Ishaan |
-| GET | `/chat/sessions/{id}` | Ishaan |
-| POST | `/chat/sessions/{id}/message` | Ishaan |
-| GET | `/recommendations/{report_id}` | Ishaan |
-| POST | `/plan/generate` | Ishaan |
-| POST | `/predict` | Anshul + Ishaan |
+| POST | `/auth/signup`
+| POST | `/auth/login`
+| GET | `/users/me`
+| POST | `/reports/upload` | A |
+| GET | `/reports/{id}` | A |
+| GET | `/reports/{id}/factors` | A |
+| GET | `/reports/{id}/risk` | A |
+| POST | `/chat/sessions` | I |
+| GET | `/chat/sessions` | I |
+| GET | `/chat/sessions/{id}` | I |
+| POST | `/chat/sessions/{id}/message` | I |
+| GET | `/recommendations/{report_id}` | I |
+| POST | `/plan/generate` | I |
+| POST | `/predict` | A + I |
