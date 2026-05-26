@@ -1,5 +1,5 @@
 """
-Owner: Anshul
+Anshul part
 TODO: upload PDF/image → OCR → parser → save CreditReport row.
 For now returns 501 so chat side can still mock-test.
 """
@@ -21,7 +21,7 @@ def upload_report(
     db: Session = Depends(get_db),
     current: User = Depends(get_current_user),
 ):
-    raise HTTPException(501, "Anshul: implement OCR + parser pipeline")
+    raise HTTPException(501, "implement OCR + parser pipeline")
 
 
 @router.get("/{report_id}", response_model=ReportOut)

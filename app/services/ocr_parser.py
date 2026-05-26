@@ -1,5 +1,5 @@
 """
-Owner: Anshul
+Anshul part
 OCR raw text → structured JSON (matches schemas.report.ParsedReport)
 Approach: regex first-pass + spaCy NER + LLM fallback for messy fields.
 """

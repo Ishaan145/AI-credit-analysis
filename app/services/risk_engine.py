@@ -1,5 +1,5 @@
 """
-Owner: Anshul
+Anshul part
 Rule-based risk classifier. Extend with more rules.
 """
 from typing import Dict, Any, Literal

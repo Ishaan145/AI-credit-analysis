@@ -1,5 +1,5 @@
 """
-Owner: Anshul (you collaborate).
+Anshul part
 POST /predict  → projected score given an action vector.
 """
 from fastapi import APIRouter, Depends, HTTPException

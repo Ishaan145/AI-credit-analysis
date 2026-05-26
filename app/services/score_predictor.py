@@ -1,5 +1,5 @@
 """
-Owner: Anshul (you collaborate on the action-plan API).
+Anshul part
 v1 weighted delta formula. v2 train RandomForest on synthetic dataset.
 """
 from typing import Dict, Any
